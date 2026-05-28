@@ -4,208 +4,203 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bumper Repair in Orange County, CA | Auto Cosmetic Solutions</title>
-  <meta name="description" content="Auto Cosmetic Solutions specializes in mobile bumper repair throughout Orange County, CA. We come to your home or office. PPG color match. Lifetime guarantee. Free estimate. Call 949-282-9653.">
+  <meta name="description" content="Mobile bumper repair throughout Orange County, CA. We come to your home or office. PPG color match. Lifetime guarantee. Free estimate. Call 949-282-9653.">
   <link rel="canonical" href="https://autocosmeticsolutions.com/services/bumper-repair-orange-county/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
   <!--
   ═══════════════════════════════════════════════════
   SERVICE PAGE TEMPLATE — AUTO COSMETIC SOLUTIONS
+  DESIGN SYSTEM: Matches index.html exactly
   ═══════════════════════════════════════════════════
   TO CLONE FOR OTHER SERVICES, REPLACE:
-    [SERVICE_NAME]    → e.g. "Scratch Repair"
-    [SERVICE_SLUG]    → e.g. "scratch-repair"
-    [SERVICE_DESC]    → Short description for meta
-    [SERVICE_H1]      → H1 headline
-    [SERVICE_INTRO]   → 150-200 word intro paragraph
-    [WHAT_IS_IT_P1]   → What is this service, paragraph 1
-    [WHAT_IS_IT_P2]   → What is this service, paragraph 2
-    [FAQ_Q1-5]        → Service-specific FAQ questions
-    [FAQ_A1-5]        → Service-specific FAQ answers
-  All other content (trust section, process, contact)
-  can stay identical across service pages.
+    [SERVICE_NAME]  → e.g. "Scratch Repair"
+    [SERVICE_SLUG]  → e.g. "scratch-repair"
+    H1, intro, "What Is" section, trust bullets, FAQ
   ═══════════════════════════════════════════════════
   -->
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "Bumper Repair",
-    "provider": {
-      "@type": "AutoBodyShop",
-      "name": "Auto Cosmetic Solutions",
-      "telephone": "949-282-9653",
-      "url": "https://autocosmeticsolutions.com"
-    },
-    "areaServed": "Orange County, CA",
-    "description": "Mobile bumper repair for scraped, cracked, dented, and punctured bumpers throughout Orange County, CA. PPG color match. Lifetime paint guarantee. Service at your home or office."
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {"@type":"Question","name":"How much does bumper repair cost in Orange County?","acceptedAnswer":{"@type":"Answer","text":"Most bumper repairs cost significantly less than a body shop — often under your insurance deductible. The exact price depends on damage extent. Call 949-282-9653 for a free estimate."}},
-      {"@type":"Question","name":"Can you repair a bumper that is cracked all the way through?","acceptedAnswer":{"@type":"Answer","text":"Yes. ACS repairs bumpers even if they are torn or punctured. The area is filled, reinforced, and refinished to factory spec."}},
-      {"@type":"Question","name":"How long does bumper repair take?","acceptedAnswer":{"@type":"Answer","text":"Most bumper repairs are completed in a few hours on-site at your home or office. No shop drop-off needed."}},
-      {"@type":"Question","name":"Will the repaired bumper match the rest of my car?","acceptedAnswer":{"@type":"Answer","text":"Yes. We use PPG's professional paint matching system to match your factory color code exactly on all makes, models, and colors."}},
-      {"@type":"Question","name":"Do you repair bumpers on Tesla, BMW, and luxury vehicles?","acceptedAnswer":{"@type":"Answer","text":"Yes. ACS has dealer-level experience with BMW, Mercedes, Audi, Land Rover, Aston-Martin, and Tesla — same quality without the dealer markup."}}
-    ]
-  }
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Bumper Repair","provider":{"@type":"AutoBodyShop","name":"Auto Cosmetic Solutions","telephone":"949-282-9653","url":"https://autocosmeticsolutions.com"},"areaServed":"Orange County, CA","description":"Mobile bumper repair for scraped, cracked, dented, and punctured bumpers throughout Orange County, CA. PPG color match. Lifetime paint guarantee."}
   </script>
 
   <style>
-    /* ═══ SHARED DESIGN SYSTEM — same as homepage ═══ */
     :root {
-      --red:#c0392b; --red-hover:#a93226; --dark:#0f0f0f; --dark-2:#1a1a1a;
-      --dark-3:#252525; --mid:#3a3a3a; --light-bg:#f4f4f2; --white:#ffffff;
-      --text:#2a2a2a; --text-mid:#555; --text-light:#888; --border:#e0e0e0;
-      --font-head:'Barlow Condensed',sans-serif; --font-body:'Barlow',sans-serif;
-      --radius:4px; --shadow:0 4px 24px rgba(0,0,0,0.08); --shadow-md:0 8px 40px rgba(0,0,0,0.12);
+      --yellow:      #F0B429;
+      --yellow-dark: #D49A1A;
+      --dark:        #0C0C0C;
+      --dark-2:      #141414;
+      --dark-3:      #1C1C1C;
+      --dark-4:      #252525;
+      --white:       #FFFFFF;
+      --light-bg:    #F6F5F1;
+      --text:        #1A1A1A;
+      --text-mid:    #555;
+      --text-dim:    #888;
+      --border:      #E2E1DD;
+      --border-dark: rgba(255,255,255,0.07);
+      --font-head:   'Oswald', sans-serif;
+      --font-body:   'Nunito Sans', sans-serif;
+      --r:           5px;
+      --sh:          0 4px 28px rgba(0,0,0,0.07);
+      --sh-md:       0 10px 48px rgba(0,0,0,0.11);
     }
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
-    html{scroll-behavior:smooth;}
-    body{font-family:var(--font-body);color:var(--text);background:var(--white);line-height:1.6;overflow-x:hidden;}
-    img{max-width:100%;display:block;} a{text-decoration:none;color:inherit;}
-    .container{max-width:1180px;margin:0 auto;padding:0 24px;}
-    .section-label{display:inline-block;font-family:var(--font-head);font-size:13px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
-    .section-h2{font-family:var(--font-head);font-size:clamp(28px,4vw,48px);font-weight:800;line-height:1.05;color:var(--text);text-transform:uppercase;}
-    .section-h2.light{color:var(--white);}
-    .btn{display:inline-block;font-family:var(--font-head);font-size:16px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:14px 32px;border-radius:var(--radius);cursor:pointer;border:none;transition:all .2s;}
-    .btn-red{background:var(--red);color:var(--white);}
-    .btn-red:hover{background:var(--red-hover);transform:translateY(-1px);}
-    .form-group{margin-bottom:14px;}
-    .form-group label{display:block;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--text-mid);margin-bottom:5px;}
-    .form-group input,.form-group select,.form-group textarea{width:100%;padding:11px 14px;border:1.5px solid var(--border);border-radius:var(--radius);font-family:var(--font-body);font-size:15px;color:var(--text);background:var(--white);outline:none;transition:border-color .15s;}
-    .form-group input:focus,.form-group select:focus,.form-group textarea:focus{border-color:var(--red);}
-    .form-submit{width:100%;background:var(--red);color:var(--white);font-family:var(--font-head);font-size:17px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;padding:15px;border:none;border-radius:var(--radius);cursor:pointer;transition:background .2s;margin-top:4px;}
-    .form-submit:hover{background:var(--red-hover);}
-    .form-micro{font-size:11px;color:var(--text-light);text-align:center;margin-top:10px;}
-    .reveal{opacity:0;transform:translateY(24px);transition:opacity .55s ease,transform .55s ease;}
-    .reveal.visible{opacity:1;transform:translateY(0);}
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-body); color: var(--text); background: var(--white); overflow-x: hidden; line-height: 1.6; }
+    img { max-width: 100%; display: block; } a { text-decoration: none; color: inherit; }
+    .container { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+    .lbl { display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-head); font-size: 13px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--yellow); margin-bottom: 14px; }
+    .lbl::before { content: ''; display: block; width: 28px; height: 2px; background: var(--yellow); }
+    .h2 { font-family: var(--font-head); font-size: clamp(28px,4vw,48px); font-weight: 700; line-height: 1.05; letter-spacing: 0.01em; text-transform: uppercase; color: var(--text); }
+    .h2.light { color: var(--white); }
+    .btn { display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-head); font-size: 15px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 14px 30px; border-radius: var(--r); cursor: pointer; border: none; transition: all 0.2s; }
+    .btn-yellow { background: var(--yellow); color: var(--dark); }
+    .btn-yellow:hover { background: var(--yellow-dark); transform: translateY(-1px); }
+    .btn-outline-dark { background: transparent; color: var(--text); border: 1.5px solid var(--text); }
+    .btn-outline-dark:hover { background: var(--text); color: var(--white); }
+    .fg { margin-bottom: 13px; }
+    .fg label { display: block; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-mid); margin-bottom: 5px; }
+    .fg input, .fg select, .fg textarea { width: 100%; padding: 11px 14px; border: 1.5px solid var(--border); border-radius: var(--r); font-family: var(--font-body); font-size: 15px; color: var(--text); background: var(--white); outline: none; transition: border-color 0.15s; }
+    .fg input:focus, .fg select:focus, .fg textarea:focus { border-color: var(--yellow); }
+    .fsub { width: 100%; margin-top: 4px; background: var(--yellow); color: var(--dark); font-family: var(--font-head); font-size: 16px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 15px; border: none; border-radius: var(--r); cursor: pointer; transition: background 0.2s; }
+    .fsub:hover { background: var(--yellow-dark); }
+    .fmicro { font-size: 11px; color: var(--text-dim); text-align: center; margin-top: 10px; }
+    .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.65s cubic-bezier(0.22,1,0.36,1), transform 0.65s cubic-bezier(0.22,1,0.36,1); }
+    .reveal.up { opacity: 1; transform: translateY(0); }
 
-    /* ═══ TOP BAR ═══ */
-    #topbar{background:var(--dark);padding:10px 0;font-size:13px;color:rgba(255,255,255,.75);}
-    #topbar .inner{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;}
-    #topbar .phone-link{color:var(--white);font-weight:700;font-family:var(--font-head);font-size:15px;letter-spacing:.04em;}
-    #topbar .phone-link:hover{color:var(--red);}
+    /* TOP BAR */
+    #topbar { background: var(--dark); border-bottom: 1px solid var(--border-dark); padding: 9px 0; font-size: 13px; color: rgba(255,255,255,0.55); }
+    #topbar .tb-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    #topbar .tb-stars { color: var(--yellow); letter-spacing: 2px; font-size: 12px; }
+    #topbar .tb-phone { color: var(--yellow); font-family: var(--font-head); font-weight: 600; font-size: 15px; letter-spacing: 0.05em; display: flex; align-items: center; gap: 6px; }
+    #topbar .tb-phone:hover { color: var(--white); }
 
-    /* ═══ NAV ═══ */
-    #nav{background:var(--dark-2);position:sticky;top:0;z-index:1000;border-bottom:1px solid rgba(255,255,255,.06);}
-    #nav .nav-inner{display:flex;align-items:center;justify-content:space-between;height:68px;}
-    .nav-logo{font-family:var(--font-head);font-size:22px;font-weight:900;color:var(--white);letter-spacing:.04em;text-transform:uppercase;}
-    .nav-logo span{color:var(--red);}
-    .nav-links{display:flex;align-items:center;gap:4px;list-style:none;}
-    .nav-links a{color:rgba(255,255,255,.8);font-size:14px;font-weight:500;padding:8px 14px;border-radius:var(--radius);transition:all .15s;letter-spacing:.02em;}
-    .nav-links a:hover{color:var(--white);background:rgba(255,255,255,.06);}
-    .nav-cta{background:var(--red);color:var(--white)!important;font-family:var(--font-head);font-weight:700!important;text-transform:uppercase;letter-spacing:.06em!important;font-size:13px!important;}
-    .nav-cta:hover{background:var(--red-hover)!important;}
-    .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:6px;}
-    .hamburger span{display:block;width:24px;height:2px;background:var(--white);border-radius:2px;}
-    .mobile-menu{display:none;background:var(--dark-2);padding:16px 24px 24px;border-top:1px solid rgba(255,255,255,.06);}
-    .mobile-menu.open{display:block;}
-    .mobile-menu a{display:block;color:rgba(255,255,255,.8);padding:12px 0;font-size:16px;border-bottom:1px solid rgba(255,255,255,.06);}
-    .mobile-menu .nav-cta{margin-top:16px;text-align:center;border-radius:var(--radius);padding:14px;}
+    /* NAV */
+    #nav { background: var(--dark-2); position: sticky; top: 0; z-index: 1000; border-bottom: 1px solid var(--border-dark); }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 70px; }
+    .nav-logo { font-family: var(--font-head); font-size: 20px; font-weight: 700; color: var(--white); letter-spacing: 0.06em; text-transform: uppercase; display: flex; align-items: center; }
+    .nav-logo .y { color: var(--yellow); }
+    .nav-logo .dot { display: inline-block; width: 6px; height: 6px; background: var(--yellow); border-radius: 50%; margin: 0 2px 3px; }
+    .nav-links { list-style: none; display: flex; align-items: center; gap: 2px; }
+    .nav-links a { font-family: var(--font-head); font-size: 13px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(255,255,255,0.65); padding: 8px 14px; border-radius: var(--r); transition: all 0.15s; }
+    .nav-links a:hover { color: var(--white); background: rgba(255,255,255,0.05); }
+    .nav-cta-btn { background: var(--yellow); color: var(--dark) !important; font-weight: 700 !important; border-radius: var(--r); }
+    .nav-cta-btn:hover { background: var(--yellow-dark) !important; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 6px; }
+    .hamburger span { display: block; width: 24px; height: 2px; background: var(--white); border-radius: 2px; }
+    #mobile-menu { display: none; background: var(--dark-2); border-top: 1px solid var(--border-dark); padding: 16px 24px 24px; }
+    #mobile-menu.open { display: block; }
+    #mobile-menu a { display: block; padding: 13px 0; font-family: var(--font-head); font-size: 16px; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(255,255,255,0.75); border-bottom: 1px solid var(--border-dark); }
+    #mobile-menu a:last-child { border: none; margin-top: 16px; background: var(--yellow); color: var(--dark); text-align: center; border-radius: var(--r); padding: 14px; font-weight: 700; }
 
-    /* ═══ PAGE HERO ═══ */
-    .page-hero{background:var(--dark);padding:72px 0;background-image:linear-gradient(to right,rgba(0,0,0,.9) 0%,rgba(0,0,0,.6) 60%,rgba(0,0,0,.2) 100%),url('https://autocosmeticsolutions.com/wp-content/uploads/2024/04/Cesar-Buffing-min-scaled.jpg');background-size:cover;background-position:center;}
-    .breadcrumb{font-size:13px;color:rgba(255,255,255,.4);margin-bottom:16px;}
-    .breadcrumb a{color:rgba(255,255,255,.4);}
-    .breadcrumb a:hover{color:var(--white);}
-    .breadcrumb span{color:rgba(255,255,255,.25);margin:0 8px;}
-    .page-hero h1{font-family:var(--font-head);font-size:clamp(36px,5vw,60px);font-weight:900;color:var(--white);text-transform:uppercase;line-height:1.0;max-width:700px;margin-bottom:16px;}
-    .page-hero h1 em{color:var(--red);font-style:normal;}
-    .page-hero p{font-size:17px;color:rgba(255,255,255,.7);max-width:560px;line-height:1.65;margin-bottom:32px;}
-    .hero-trust-row{display:flex;flex-wrap:wrap;gap:10px;}
-    .htag{display:flex;align-items:center;gap:6px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);color:rgba(255,255,255,.8);font-size:13px;font-weight:500;padding:6px 14px;border-radius:100px;}
-    .htag .i{color:var(--red);}
+    /* PAGE HERO */
+    .page-hero { background: var(--dark); background-image: linear-gradient(105deg, rgba(12,12,12,0.95) 0%, rgba(12,12,12,0.8) 50%, rgba(12,12,12,0.4) 100%), url('https://autocosmeticsolutions.com/wp-content/uploads/2024/04/Cesar-Buffing-min-scaled.jpg'); background-size: cover; background-position: center; padding: 80px 0; position: relative; }
+    .page-hero::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 1px; background: linear-gradient(to right, transparent, var(--yellow), transparent); opacity: 0.3; }
+    .breadcrumb { font-size: 13px; color: rgba(255,255,255,0.35); margin-bottom: 18px; display: flex; align-items: center; gap: 8px; }
+    .breadcrumb a { color: rgba(255,255,255,0.35); transition: color 0.15s; }
+    .breadcrumb a:hover { color: var(--yellow); }
+    .breadcrumb i { font-size: 10px; color: rgba(255,255,255,0.2); }
+    .page-hero h1 { font-family: var(--font-head); font-size: clamp(36px,5vw,62px); font-weight: 700; color: var(--white); text-transform: uppercase; line-height: 1.0; margin-bottom: 16px; }
+    .page-hero h1 .accent { color: var(--yellow); }
+    .page-hero p { font-size: 17px; color: rgba(255,255,255,0.65); max-width: 580px; line-height: 1.7; margin-bottom: 28px; }
+    .hero-badges { display: flex; flex-wrap: wrap; gap: 10px; }
+    .hbadge { display: flex; align-items: center; gap: 7px; font-size: 13px; color: rgba(255,255,255,0.7); padding: 7px 14px; border-radius: 100px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); }
+    .hbadge i { color: var(--yellow); font-size: 13px; }
 
-    /* ═══ CONTENT + FORM LAYOUT ═══ */
-    .content-form-layout{display:grid;grid-template-columns:1fr 380px;gap:64px;padding:80px 0;align-items:start;}
-    .content-col h2{font-family:var(--font-head);font-size:clamp(26px,3.5vw,40px);font-weight:800;text-transform:uppercase;color:var(--text);margin:36px 0 14px;line-height:1.1;}
-    .content-col h2:first-child{margin-top:0;}
-    .content-col p{font-size:16px;color:var(--text-mid);line-height:1.75;margin-bottom:16px;}
-    .trust-bullets{list-style:none;margin:16px 0 24px;}
-    .trust-bullets li{display:flex;align-items:flex-start;gap:12px;font-size:15px;color:var(--text-mid);margin-bottom:12px;line-height:1.6;}
-    .trust-bullets li::before{content:'✓';color:var(--red);font-weight:700;flex-shrink:0;margin-top:2px;}
-    .steps-mini{counter-reset:step;margin:16px 0 24px;}
-    .step-mini{display:flex;align-items:flex-start;gap:16px;margin-bottom:20px;}
-    .step-mini-num{width:36px;height:36px;background:var(--red);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-head);font-size:16px;font-weight:900;color:var(--white);flex-shrink:0;}
-    .step-mini-body h4{font-family:var(--font-head);font-size:17px;font-weight:800;text-transform:uppercase;color:var(--text);margin-bottom:4px;}
-    .step-mini-body p{font-size:14px;color:var(--text-mid);margin:0;}
-    .pricing-box{background:var(--light-bg);border-radius:6px;padding:24px;margin:24px 0;border-left:3px solid var(--red);}
-    .pricing-box p{font-size:15px;color:var(--text-mid);line-height:1.7;margin:0;}
-    .sticky-form-box{background:var(--white);border:1.5px solid var(--border);border-radius:8px;padding:28px;box-shadow:var(--shadow-md);position:sticky;top:90px;}
-    .sticky-form-box h3{font-family:var(--font-head);font-size:21px;font-weight:800;text-transform:uppercase;color:var(--text);margin-bottom:4px;}
-    .sticky-form-box .sub{font-size:13px;color:var(--text-mid);margin-bottom:20px;}
+    /* CONTENT + FORM LAYOUT */
+    .content-layout { display: grid; grid-template-columns: 1fr 360px; gap: 64px; padding: 80px 0; align-items: start; }
+    .content-col h2 { font-family: var(--font-head); font-size: clamp(22px,3vw,36px); font-weight: 700; text-transform: uppercase; color: var(--text); margin: 36px 0 14px; line-height: 1.1; letter-spacing: 0.02em; }
+    .content-col h2:first-child { margin-top: 0; }
+    .content-col p { font-size: 16px; color: var(--text-mid); line-height: 1.8; margin-bottom: 16px; }
+    .trust-list { list-style: none; margin: 16px 0 24px; }
+    .trust-list li { display: flex; align-items: flex-start; gap: 12px; font-size: 15px; color: var(--text-mid); margin-bottom: 14px; line-height: 1.6; }
+    .trust-list li i { color: var(--yellow); font-size: 16px; flex-shrink: 0; margin-top: 2px; }
+    .trust-list strong { color: var(--text); font-weight: 700; }
+    .steps { margin: 16px 0 24px; }
+    .step { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 22px; }
+    .step-num { width: 38px; height: 38px; background: var(--yellow); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: var(--font-head); font-size: 17px; font-weight: 700; color: var(--dark); flex-shrink: 0; }
+    .step-body h4 { font-family: var(--font-head); font-size: 17px; font-weight: 700; text-transform: uppercase; color: var(--text); margin-bottom: 4px; }
+    .step-body p { font-size: 14px; color: var(--text-mid); margin: 0; }
+    .pricing-note { background: var(--light-bg); border-left: 3px solid var(--yellow); border-radius: var(--r); padding: 20px 22px; margin: 20px 0; }
+    .pricing-note p { font-size: 15px; color: var(--text-mid); line-height: 1.7; margin: 0; }
 
-    /* ═══ GALLERY STRIP ═══ */
-    .gallery-strip{background:var(--light-bg);padding:72px 0;}
-    .gallery-strip-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:40px;}
-    .strip-item{position:relative;border-radius:6px;overflow:hidden;aspect-ratio:4/3;background:var(--dark-3);}
-    .strip-item img{width:100%;height:100%;object-fit:cover;transition:transform .4s;}
-    .strip-item:hover img{transform:scale(1.06);}
-    .strip-caption{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,0,0,.75));color:var(--white);padding:20px 12px 10px;font-size:12px;font-weight:600;}
-    .strip-tag{display:inline-block;background:var(--red);font-family:var(--font-head);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;padding:2px 7px;border-radius:2px;margin-bottom:4px;}
+    /* STICKY FORM */
+    .sticky-form { position: sticky; top: 90px; background: var(--white); border: 1.5px solid var(--border); border-top: 3px solid var(--yellow); border-radius: 8px; padding: 28px; box-shadow: var(--sh-md); }
+    .sticky-form h3 { font-family: var(--font-head); font-size: 21px; font-weight: 700; text-transform: uppercase; color: var(--text); margin-bottom: 4px; }
+    .sticky-form .sub { font-size: 13px; color: var(--text-dim); margin-bottom: 20px; }
+    .sticky-form .call-row { text-align: center; margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--border); }
+    .sticky-form .call-row p { font-size: 12px; color: var(--text-dim); margin-bottom: 4px; }
+    .sticky-form .call-link { font-family: var(--font-head); font-size: 24px; font-weight: 700; color: var(--yellow); }
+    .sticky-form .call-link:hover { color: var(--yellow-dark); }
 
-    /* ═══ SERVICE FAQ ═══ */
-    .service-faq{padding:72px 0;background:var(--white);}
-    .faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:40px;}
-    .faq-card{background:var(--light-bg);border-radius:6px;padding:24px;}
-    .faq-card h4{font-family:var(--font-head);font-size:17px;font-weight:800;text-transform:uppercase;color:var(--text);margin-bottom:10px;}
-    .faq-card p{font-size:14px;color:var(--text-mid);line-height:1.65;}
+    /* GALLERY STRIP */
+    .gallery-strip { background: var(--light-bg); padding: 80px 0; }
+    .gallery-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 12px; margin-top: 40px; }
+    .gallery-item { position: relative; border-radius: 6px; overflow: hidden; aspect-ratio: 4/3; background: var(--dark-3); }
+    .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s; }
+    .gallery-item:hover img { transform: scale(1.05); }
+    .gallery-cap { position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.8)); color: var(--white); padding: 24px 12px 10px; font-size: 12px; font-weight: 600; }
+    .gallery-tag { display: inline-block; background: var(--yellow); font-family: var(--font-head); font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--dark); padding: 2px 7px; border-radius: 2px; margin-bottom: 4px; }
 
-    /* ═══ RELATED SERVICES ═══ */
-    .related{padding:72px 0;background:var(--light-bg);}
-    .related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:40px;}
-    .related-card{background:var(--white);border:1.5px solid var(--border);border-radius:6px;padding:24px;transition:all .2s;}
-    .related-card:hover{border-color:rgba(192,57,43,.3);box-shadow:var(--shadow);}
-    .related-card h4{font-family:var(--font-head);font-size:18px;font-weight:800;text-transform:uppercase;color:var(--text);margin-bottom:8px;}
-    .related-card p{font-size:13px;color:var(--text-mid);margin-bottom:14px;line-height:1.55;}
-    .related-card a{font-size:13px;font-weight:700;color:var(--red);text-transform:uppercase;letter-spacing:.05em;}
+    /* FAQ */
+    .service-faq { padding: 80px 0; background: var(--white); }
+    .faq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 40px; }
+    .faq-card { background: var(--light-bg); border-radius: 6px; padding: 24px; border-left: 3px solid transparent; transition: border-color 0.2s; }
+    .faq-card:hover { border-color: var(--yellow); }
+    .faq-card h4 { font-family: var(--font-head); font-size: 17px; font-weight: 700; text-transform: uppercase; color: var(--text); margin-bottom: 10px; }
+    .faq-card p { font-size: 14px; color: var(--text-mid); line-height: 1.65; }
 
-    /* ═══ CITY LIST ═══ */
-    .city-list-section{padding:60px 0;background:var(--white);border-top:1px solid var(--border);}
-    .city-list-section h3{font-family:var(--font-head);font-size:22px;font-weight:800;text-transform:uppercase;color:var(--text);margin-bottom:24px;}
-    .city-chips{display:flex;flex-wrap:wrap;gap:10px;}
-    .city-chip{padding:8px 16px;border:1.5px solid var(--border);border-radius:100px;font-size:13px;font-weight:500;color:var(--text-mid);transition:all .15s;}
-    .city-chip:hover{border-color:var(--red);color:var(--red);}
+    /* RELATED */
+    .related { padding: 80px 0; background: var(--light-bg); }
+    .related-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; margin-top: 40px; }
+    .related-card { background: var(--white); border: 1.5px solid var(--border); border-radius: 8px; padding: 24px; transition: all 0.2s; }
+    .related-card:hover { border-color: rgba(240,180,41,0.4); box-shadow: 0 6px 24px rgba(240,180,41,0.1); transform: translateY(-2px); }
+    .related-card .icon { width: 40px; height: 40px; background: rgba(240,180,41,0.1); border-radius: 6px; display: flex; align-items: center; justify-content: center; color: var(--yellow); font-size: 18px; margin-bottom: 14px; }
+    .related-card h4 { font-family: var(--font-head); font-size: 17px; font-weight: 700; text-transform: uppercase; color: var(--text); margin-bottom: 8px; }
+    .related-card p { font-size: 13px; color: var(--text-mid); margin-bottom: 14px; line-height: 1.55; }
+    .related-card a { font-family: var(--font-head); font-size: 12px; font-weight: 700; color: var(--yellow); text-transform: uppercase; letter-spacing: 0.08em; display: flex; align-items: center; gap: 5px; }
 
-    /* ═══ BOTTOM CTA BAR ═══ */
-    .cta-bar{background:var(--red);padding:60px 0;}
-    .cta-bar-inner{display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap;}
-    .cta-bar h2{font-family:var(--font-head);font-size:clamp(26px,4vw,44px);font-weight:900;color:var(--white);text-transform:uppercase;line-height:1.1;}
-    .cta-bar-btns{display:flex;gap:14px;flex-wrap:wrap;flex-shrink:0;}
-    .btn-white{background:var(--white);color:var(--red);font-family:var(--font-head);font-size:15px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;padding:14px 28px;border-radius:var(--radius);border:none;cursor:pointer;transition:all .2s;}
-    .btn-white:hover{background:rgba(255,255,255,.9);}
-    .btn-outline-wh{background:transparent;color:var(--white);border:2px solid rgba(255,255,255,.5);font-family:var(--font-head);font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:13px 28px;border-radius:var(--radius);transition:all .2s;}
-    .btn-outline-wh:hover{border-color:var(--white);}
+    /* CITY CHIPS */
+    .city-chips-section { padding: 60px 0; background: var(--white); border-top: 1px solid var(--border); }
+    .city-chips-section h3 { font-family: var(--font-head); font-size: 20px; font-weight: 700; text-transform: uppercase; color: var(--text); margin-bottom: 20px; }
+    .chips { display: flex; flex-wrap: wrap; gap: 9px; }
+    .chip { padding: 8px 16px; border: 1.5px solid var(--border); border-radius: 100px; font-size: 13px; font-weight: 600; color: var(--text-mid); transition: all 0.15s; }
+    .chip:hover { border-color: var(--yellow); color: var(--text); background: rgba(240,180,41,0.05); }
 
-    /* ═══ FOOTER ═══ */
-    #footer{background:var(--dark);border-top:1px solid rgba(255,255,255,.06);padding:48px 0 0;}
-    .footer-bottom{border-top:1px solid rgba(255,255,255,.06);padding:20px 0;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;}
-    .footer-bottom p{font-size:13px;color:rgba(255,255,255,.25);}
-    .footer-bottom a{color:rgba(255,255,255,.35);}
-    .footer-mini{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;padding-bottom:40px;}
-    .footer-mini .nav-logo{font-size:18px;margin-bottom:12px;}
-    .footer-mini .desc{font-size:14px;color:rgba(255,255,255,.35);line-height:1.65;margin-bottom:16px;}
-    .footer-mini .fp{font-family:var(--font-head);font-size:20px;font-weight:800;color:var(--white);display:block;margin-bottom:4px;}
-    .footer-mini .fp:hover{color:var(--red);}
-    .footer-mini h4{font-family:var(--font-head);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,255,255,.4);margin-bottom:16px;}
-    .footer-mini ul{list-style:none;}
-    .footer-mini ul li{margin-bottom:7px;}
-    .footer-mini ul li a{font-size:14px;color:rgba(255,255,255,.35);transition:color .15s;}
-    .footer-mini ul li a:hover{color:var(--white);}
+    /* CTA BAR */
+    .cta-bar { background: var(--dark); padding: 72px 0; position: relative; overflow: hidden; }
+    .cta-bar::before { content: ''; position: absolute; top: -60px; right: -60px; width: 400px; height: 400px; border-radius: 50%; background: radial-gradient(circle, rgba(240,180,41,0.06) 0%, transparent 70%); pointer-events: none; }
+    .cta-bar-inner { display: flex; align-items: center; justify-content: space-between; gap: 32px; flex-wrap: wrap; position: relative; }
+    .cta-bar h2 { font-family: var(--font-head); font-size: clamp(26px,4vw,46px); font-weight: 700; color: var(--white); text-transform: uppercase; line-height: 1.1; }
+    .cta-bar h2 span { color: var(--yellow); }
+    .cta-btns { display: flex; gap: 14px; flex-wrap: wrap; flex-shrink: 0; }
+    .btn-outline-white { background: transparent; color: var(--white); border: 1.5px solid rgba(255,255,255,0.35); font-family: var(--font-head); font-size: 15px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 14px 28px; border-radius: var(--r); display: inline-flex; align-items: center; gap: 8px; transition: all 0.2s; }
+    .btn-outline-white:hover { border-color: var(--white); background: rgba(255,255,255,0.06); }
 
-    /* ═══ RESPONSIVE ═══ */
-    @media(max-width:1024px){.content-form-layout{grid-template-columns:1fr}.sticky-form-box{position:static;margin-top:40px}.gallery-strip-grid{grid-template-columns:repeat(2,1fr)}.faq-grid{grid-template-columns:1fr}.related-grid{grid-template-columns:1fr 1fr}}
-    @media(max-width:768px){.nav-links{display:none}.hamburger{display:flex}.cta-bar-inner{flex-direction:column}.related-grid{grid-template-columns:1fr}.footer-mini{grid-template-columns:1fr}}
-    @media(max-width:480px){.gallery-strip-grid{grid-template-columns:1fr}}
+    /* FOOTER */
+    #footer { background: var(--dark); border-top: 1px solid var(--border-dark); padding: 56px 0 0; }
+    .footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 48px; padding-bottom: 48px; }
+    .footer-brand .nav-logo { margin-bottom: 14px; }
+    .footer-brand p { font-size: 14px; color: rgba(255,255,255,0.35); line-height: 1.75; margin-bottom: 16px; max-width: 280px; }
+    .f-phone { font-family: var(--font-head); font-size: 22px; font-weight: 700; color: var(--yellow); display: block; margin-bottom: 4px; }
+    .f-hours { font-size: 13px; color: rgba(255,255,255,0.25); }
+    .footer-col h4 { font-family: var(--font-head); font-size: 13px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.35); margin-bottom: 18px; }
+    .footer-col ul { list-style: none; }
+    .footer-col li { margin-bottom: 8px; }
+    .footer-col a { font-size: 14px; color: rgba(255,255,255,0.4); transition: color 0.15s; }
+    .footer-col a:hover { color: var(--white); }
+    .footer-bottom { border-top: 1px solid var(--border-dark); padding: 20px 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    .footer-bottom p { font-size: 13px; color: rgba(255,255,255,0.2); }
+    .f-badge { font-size: 12px; font-weight: 600; color: rgba(255,255,255,0.3); border: 1px solid rgba(255,255,255,0.1); padding: 4px 12px; border-radius: 100px; }
+
+    /* RESPONSIVE */
+    @media(max-width:1024px) { .content-layout { grid-template-columns: 1fr; } .sticky-form { position: static; } .gallery-grid { grid-template-columns: repeat(2,1fr); } .faq-grid { grid-template-columns: 1fr; } .related-grid { grid-template-columns: 1fr 1fr; } .footer-grid { grid-template-columns: 1fr 1fr; } }
+    @media(max-width:768px) { .nav-links { display: none; } .hamburger { display: flex; } .cta-bar-inner { flex-direction: column; } .related-grid { grid-template-columns: 1fr; } .footer-grid { grid-template-columns: 1fr; } }
+    @media(max-width:480px) { .gallery-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
@@ -213,9 +208,12 @@
   <!-- TOP BAR -->
   <div id="topbar">
     <div class="container">
-      <div class="inner">
-        <span>⭐ 5-Star Rated on Yelp · Mobile Service · All of Orange County, CA</span>
-        <a href="tel:9492829653" class="phone-link">📞 949-282-9653</a>
+      <div class="tb-inner">
+        <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
+          <span class="tb-stars">★★★★★</span>
+          <span>5-Star Rated on Yelp &middot; Mobile Service &middot; All of Orange County</span>
+        </div>
+        <a href="tel:9492829653" class="tb-phone"><i class="bi bi-telephone-fill"></i> 949-282-9653</a>
       </div>
     </div>
   </div>
@@ -224,21 +222,21 @@
   <nav id="nav">
     <div class="container">
       <div class="nav-inner">
-        <a href="/" class="nav-logo">Auto <span>Cosmetic</span> Solutions</a>
+        <a href="/" class="nav-logo">Auto<span class="y">&nbsp;Cosmetic</span><span class="dot"></span>Solutions</a>
         <ul class="nav-links">
-          <li><a href="/">Home</a></li>
-          <li><a href="/services/">Services</a></li>
-          <li><a href="/service-areas/">Service Areas</a></li>
-          <li><a href="/gallery/">Gallery</a></li>
-          <li><a href="/about/">About</a></li>
-          <li><a href="#estimate" class="nav-cta">Get Free Estimate</a></li>
+          <li><a href="/#hero">Home</a></li>
+          <li><a href="/#services">Services</a></li>
+          <li><a href="/#beforeafter">Our Work</a></li>
+          <li><a href="/#areas">Service Areas</a></li>
+          <li><a href="/#about">About</a></li>
+          <li><a href="/#contact" class="nav-cta-btn">Get Free Estimate</a></li>
         </ul>
-        <div class="hamburger" onclick="document.getElementById('mob').classList.toggle('open')"><span></span><span></span><span></span></div>
+        <div class="hamburger" onclick="document.getElementById('mobile-menu').classList.toggle('open')"><span></span><span></span><span></span></div>
       </div>
     </div>
-    <div class="mobile-menu" id="mob">
-      <a href="/">Home</a><a href="/services/">Services</a><a href="/service-areas/">Service Areas</a><a href="/gallery/">Gallery</a><a href="/about/">About</a>
-      <a href="#estimate" class="nav-cta">Get Free Estimate</a>
+    <div id="mobile-menu">
+      <a href="/#hero">Home</a><a href="/#services">Services</a><a href="/#beforeafter">Our Work</a><a href="/#areas">Service Areas</a><a href="/#about">About</a>
+      <a href="/#contact">Get Free Estimate</a>
     </div>
   </nav>
 
@@ -246,183 +244,118 @@
   <section class="page-hero">
     <div class="container">
       <div class="breadcrumb">
-        <a href="/">Home</a><span>/</span>
-        <a href="/services/">Services</a><span>/</span>
-        Bumper Repair — Orange County, CA
+        <a href="/">Home</a><i class="bi bi-chevron-right"></i>
+        <a href="/#services">Services</a><i class="bi bi-chevron-right"></i>
+        <span style="color:rgba(255,255,255,0.6);">Bumper Repair</span>
       </div>
-      <h1>Mobile Bumper Repair<br><em>Orange County, CA</em></h1>
-      <p>Cracked, scraped, dented, or punctured bumper? Auto Cosmetic Solutions comes to your home or office throughout Orange County. PPG color match. Done in hours. Half the cost of a body shop.</p>
-      <div class="hero-trust-row">
-        <span class="htag"><span class="i">✓</span> Lifetime Paint Guarantee</span>
-        <span class="htag"><span class="i">✓</span> We Come to You</span>
-        <span class="htag"><span class="i">✓</span> PPG Professional Paint</span>
-        <span class="htag"><span class="i">✓</span> Free Estimate</span>
+      <h1>Mobile Bumper Repair<br><span class="accent">Orange County, CA</span></h1>
+      <p>Cracked, scraped, dented, or punctured bumper? We come to your home or office anywhere in Orange County. PPG color match. Done in hours. Half the cost of a body shop.</p>
+      <div class="hero-badges">
+        <span class="hbadge"><i class="bi bi-patch-check-fill"></i> Lifetime Guarantee</span>
+        <span class="hbadge"><i class="bi bi-truck"></i> We Come to You</span>
+        <span class="hbadge"><i class="bi bi-award-fill"></i> Dealer-Certified</span>
+        <span class="hbadge"><i class="bi bi-tag-fill"></i> Free Estimate</span>
       </div>
     </div>
   </section>
 
-  <!-- MAIN CONTENT + STICKY FORM -->
+  <!-- CONTENT + STICKY FORM -->
   <div class="container">
-    <div class="content-form-layout">
+    <div class="content-layout">
+      <div class="content-col">
 
-      <!-- LEFT: Content -->
-      <div class="content-col reveal">
+        <div class="reveal">
+          <p style="font-size:17px;color:var(--text-mid);line-height:1.8;">Your bumper takes more abuse than any other part of your vehicle. Most of that damage doesn't require a full replacement. Auto Cosmetic Solutions has been repairing bumpers across Orange County since 2009 — entirely on-site at your home or office, with a PPG color match that's guaranteed for as long as you own the vehicle.</p>
+        </div>
 
-        <p style="font-size:17px;color:var(--text-mid);line-height:1.75;margin-bottom:0;">
-          Your bumper takes more abuse than any other part of your vehicle — parking lot scrapes, fender-benders, low-speed collisions, and concrete curbs. Most of that damage doesn't require a full bumper replacement. Auto Cosmetic Solutions has been repairing bumpers across Orange County since 2009, and we do it entirely on-site at your home or office. No shop drop-off. No rental car. Just a technician in your driveway and a repaired bumper that matches your factory paint exactly.
-        </p>
+        <div class="reveal">
+          <h2>What Is Mobile Bumper Repair?</h2>
+          <p>A professional ACS technician comes to your location with all the equipment needed to repair and refinish your bumper on-site. We sand, prime, fill, and repaint to factory spec using PPG's professional paint system — no shop drop-off, no rental car, no week-long wait.</p>
+          <p>ACS repairs bumpers even if they are torn or punctured, not just scratched. Owner Darren Burt has dealer-level experience with Tesla, BMW, Audi, Mercedes, Land Rover, and Aston-Martin. If the damage is cosmetic, we can fix it without a shop visit.</p>
+        </div>
 
-        <h2>What Is Mobile Bumper Repair?</h2>
-        <p>Mobile bumper repair is exactly what it sounds like — a professional auto cosmetic technician comes to your location with all the equipment needed to repair and refinish your bumper on-site. Auto Cosmetic Solutions uses PPG's professional paint system to sand, prime, fill, and repaint your bumper to factory spec. The result is a seamless color match that's guaranteed for as long as you own the vehicle.</p>
-        <p>ACS can repair bumpers even if they are torn or punctured — not just scratched. Owner Darren Burt has dealer-level experience with every major brand, including Tesla, BMW, Audi, Mercedes, Land Rover, and Aston-Martin. If the damage is cosmetic, we can fix it without a shop visit.</p>
+        <div class="reveal">
+          <h2>Why Choose ACS for Bumper Repair?</h2>
+          <ul class="trust-list">
+            <li><i class="bi bi-patch-check-fill"></i><div><strong>Lifetime paint guarantee</strong> — All refinishing backed for as long as you own your vehicle. Not satisfied? We return and perfect it free.</div></li>
+            <li><i class="bi bi-currency-dollar"></i><div><strong>Half the cost of a body shop</strong> — Mobile model = lower overhead = lower prices. Most repairs come in under your deductible.</div></li>
+            <li><i class="bi bi-award-fill"></i><div><strong>Dealer-certified expertise</strong> — Darren has done bumper and repaint work for Land Rover, Aston-Martin, BMW, Mercedes, Audi, and Jaguar dealers.</div></li>
+            <li><i class="bi bi-palette-fill"></i><div><strong>PPG paint system</strong> — Factory-grade color matching on every make and model, including luxury finishes and EV paint.</div></li>
+            <li><i class="bi bi-clock-fill"></i><div><strong>Done in hours, not days</strong> — Most repairs completed in a few hours at your location.</div></li>
+          </ul>
+        </div>
 
-        <h2>Why Choose ACS for Bumper Repair?</h2>
-        <ul class="trust-bullets">
-          <li><strong>Lifetime paint guarantee</strong> — All paint refinishing is backed for as long as you own your vehicle. Not satisfied? We return and perfect it free of charge.</li>
-          <li><strong>Half the cost of a body shop</strong> — Our mobile model keeps overhead low. Most repairs cost less than your insurance deductible — so you can skip the claim entirely.</li>
-          <li><strong>Dealer-certified expertise</strong> — Darren Burt has done bumper and repaint work for Land Rover, Aston-Martin, Jaguar, BMW, Mercedes, Audi, and major OC dealerships.</li>
-          <li><strong>PPG paint system</strong> — Factory-grade color matching on every make and model, using PPG's highest-performance, CA-regulated paint products.</li>
-          <li><strong>Done in hours, not days</strong> — Most repairs are completed in a few hours at your location. No week-long shop waits.</li>
-        </ul>
-
-        <h2>How the Repair Works</h2>
-        <div class="steps-mini">
-          <div class="step-mini">
-            <div class="step-mini-num">1</div>
-            <div class="step-mini-body">
-              <h4>Free Estimate</h4>
-              <p>Call 949-282-9653 or submit a photo. Darren reviews the damage and gives you an honest, no-obligation quote.</p>
-            </div>
-          </div>
-          <div class="step-mini">
-            <div class="step-mini-num">2</div>
-            <div class="step-mini-body">
-              <h4>Schedule at Your Location</h4>
-              <p>Pick a time that works — home, office, or parking lot. Same-day and next-day available Mon–Fri, 8 AM–6 PM.</p>
-            </div>
-          </div>
-          <div class="step-mini">
-            <div class="step-mini-num">3</div>
-            <div class="step-mini-body">
-              <h4>On-Site Repair &amp; Refinish</h4>
-              <p>The damaged area is sanded, primed, filled where needed, and repainted with PPG paint matched to your factory code.</p>
-            </div>
+        <div class="reveal">
+          <h2>How It Works</h2>
+          <div class="steps">
+            <div class="step"><div class="step-num">1</div><div class="step-body"><h4>Free Estimate</h4><p>Call 949-282-9653 or submit the form. Darren gives you an honest, no-obligation quote — fast.</p></div></div>
+            <div class="step"><div class="step-num">2</div><div class="step-body"><h4>Schedule at Your Location</h4><p>Home, office, or parking lot. Same-day and next-day available Mon&ndash;Fri, 8 AM&ndash;6 PM.</p></div></div>
+            <div class="step"><div class="step-num">3</div><div class="step-body"><h4>On-Site Repair &amp; Refinish</h4><p>Sanded, primed, filled where needed, and repainted with PPG paint matched to your factory code.</p></div></div>
           </div>
         </div>
 
-        <h2>Pricing &amp; What to Expect</h2>
-        <div class="pricing-box">
-          <p>Auto Cosmetic Solutions does not publish fixed pricing — every bumper repair is different depending on the extent of damage, paint type, and vehicle. What we can tell you is this: our mobile model means lower overhead, and those savings go directly to you. Most of our customers are shocked at how far below body shop pricing we come in. Many repairs cost less than a typical $500–$1,000 deductible. Call or submit the form for a free estimate — there's no obligation.</p>
+        <div class="reveal">
+          <h2>Pricing &amp; What to Expect</h2>
+          <div class="pricing-note">
+            <p>We don't publish fixed prices because every repair is different. What we can tell you: our mobile model means lower overhead, and those savings go directly to you. Most customers are surprised at how far below body shop pricing we come in. Many repairs cost less than a $500&ndash;$1,000 deductible. Call or submit the form for a free, no-obligation estimate.</p>
+          </div>
         </div>
 
       </div>
 
-      <!-- RIGHT: Sticky Form -->
-      <div id="estimate">
-        <div class="sticky-form-box reveal">
+      <!-- STICKY FORM -->
+      <div>
+        <div class="sticky-form reveal">
           <h3>Get Your Free Estimate</h3>
-          <p class="sub">No obligation · Fast response · Lifetime guarantee</p>
+          <p class="sub">No obligation &middot; Fast response &middot; Lifetime guarantee</p>
           <form action="#" method="post">
-            <div class="form-group">
-              <label>Service</label>
-              <select name="service">
-                <option selected>Bumper Repair</option>
-                <option>Scratch Repair</option>
-                <option>Dent Removal</option>
-                <option>Rock Chip Repair</option>
-                <option>Headlight Refinishing</option>
-                <option>Other</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label>Your Name</label>
-              <input type="text" name="name" placeholder="Full name" required>
-            </div>
-            <div class="form-group">
-              <label>Phone Number</label>
-              <input type="tel" name="phone" placeholder="(949) 555-0100" required>
-            </div>
-            <div class="form-group">
-              <label>Your City</label>
-              <input type="text" name="city" placeholder="Mission Viejo, Irvine, Newport...">
-            </div>
-            <div class="form-group">
-              <label>Describe the Damage</label>
-              <textarea name="desc" rows="3" placeholder="Make, model, color, damage location..."></textarea>
-            </div>
-            <button type="submit" class="form-submit">Send My Estimate →</button>
-            <p class="form-micro">Fast response · No obligation · Licensed &amp; insured</p>
+            <div class="fg"><label>Service</label><select name="service"><option selected>Bumper Repair</option><option>Scratch Repair</option><option>Dent Removal</option><option>Rock Chip Repair</option><option>Headlight Refinishing</option><option>Other</option></select></div>
+            <div class="fg"><label>Your Name</label><input type="text" name="name" placeholder="Full name" required></div>
+            <div class="fg"><label>Phone Number</label><input type="tel" name="phone" placeholder="(949) 555-0100" required></div>
+            <div class="fg"><label>Your City</label><input type="text" name="city" placeholder="Mission Viejo, Irvine, Newport..."></div>
+            <div class="fg"><label>Describe the Damage</label><textarea name="desc" rows="3" placeholder="Make, model, color, damage location..."></textarea></div>
+            <button type="submit" class="fsub">Send My Estimate &rarr;</button>
+            <p class="fmicro">Fast response &middot; No obligation &middot; Licensed &amp; insured</p>
           </form>
-          <div style="margin-top:20px;text-align:center;padding-top:16px;border-top:1px solid var(--border);">
-            <div style="font-size:12px;color:var(--text-light);margin-bottom:6px;">Or call Darren directly:</div>
-            <a href="tel:9492829653" style="font-family:var(--font-head);font-size:22px;font-weight:800;color:var(--red);">949-282-9653</a>
+          <div class="call-row">
+            <p>Or call Darren directly:</p>
+            <a href="tel:9492829653" class="call-link">949-282-9653</a>
           </div>
         </div>
       </div>
-
     </div>
   </div>
 
-  <!-- GALLERY STRIP -->
+  <!-- GALLERY -->
   <section class="gallery-strip">
     <div class="container">
       <div class="reveal">
-        <span class="section-label">Our Bumper Repair Work</span>
-        <h2 class="section-h2">Real OC Repairs — Before &amp; After</h2>
+        <div class="lbl">Our Work</div>
+        <h2 class="h2">Real OC Bumper Repairs</h2>
       </div>
-      <div class="gallery-strip-grid">
-        <div class="strip-item reveal">
-          <img src="https://autocosmeticsolutions.com/wp-content/uploads/2024/04/Dent-Removal-After-minjpg.jpg" alt="Bumper repair after" loading="lazy">
-          <div class="strip-caption"><span class="strip-tag">After</span><br>Bumper Repair — Mission Viejo</div>
-        </div>
-        <div class="strip-item reveal">
-          <img src="https://autocosmeticsolutions.com/wp-content/uploads/2024/04/Dent-Removal-After-min-sc.jpg" alt="Dent removal result" loading="lazy">
-          <div class="strip-caption"><span class="strip-tag">After</span><br>Bumper Dent — Laguna Niguel</div>
-        </div>
-        <div class="strip-item reveal">
-          <img src="https://autocosmeticsolutions.com/wp-content/uploads/2024/04/Dent-Removal-2-After.jpg" alt="Paint repair" loading="lazy">
-          <div class="strip-caption"><span class="strip-tag">After</span><br>Crack Repair + Repaint — Irvine</div>
-        </div>
-        <div class="strip-item reveal">
-          <img src="https://autocosmeticsolutions.com/wp-content/uploads/2024/04/Scratch-Repair-After-min-scaled.jpeg" alt="Color match result" loading="lazy">
-          <div class="strip-caption"><span class="strip-tag">After</span><br>Color Match Blend — Newport Beach</div>
-        </div>
+      <div class="gallery-grid">
+        <div class="gallery-item reveal"><img src="https://autocosmeticsolutions.com/wp-content/uploads/2024/04/Dent-Removal-After-minjpg.jpg" alt="Bumper repair after" loading="lazy"><div class="gallery-cap"><span class="gallery-tag">After</span><br>Bumper Repair — Mission Viejo</div></div>
+        <div class="gallery-item reveal"><img src="https://autocosmeticsolutions.com/wp-content/uploads/2024/04/Scratch-Repair-After-min-scaled.jpeg" alt="Scratch repair" loading="lazy"><div class="gallery-cap"><span class="gallery-tag">After</span><br>Scratch + Color Match — Irvine</div></div>
+        <div class="gallery-item reveal"><img src="https://autocosmeticsolutions.com/wp-content/uploads/2024/04/Dent-Removal-2-After.jpg" alt="Crack repair" loading="lazy"><div class="gallery-cap"><span class="gallery-tag">After</span><br>Crack Repair + Repaint — Newport Beach</div></div>
+        <div class="gallery-item reveal"><img src="https://autocosmeticsolutions.com/wp-content/uploads/2024/04/Alex-Sizing-Up-min-scaled.jpeg" alt="On site repair" loading="lazy"><div class="gallery-cap"><span class="gallery-tag">In Progress</span><br>On-Site Repair — Aliso Viejo</div></div>
       </div>
     </div>
   </section>
 
-  <!-- SERVICE-SPECIFIC FAQ -->
+  <!-- FAQ -->
   <section class="service-faq">
     <div class="container">
       <div class="reveal">
-        <span class="section-label">FAQ</span>
-        <h2 class="section-h2">Bumper Repair — Common Questions</h2>
+        <div class="lbl">FAQ</div>
+        <h2 class="h2">Bumper Repair — Common Questions</h2>
       </div>
       <div class="faq-grid">
-        <div class="faq-card reveal">
-          <h4>How much does bumper repair cost in Orange County?</h4>
-          <p>Most ACS bumper repairs come in well below a traditional body shop — often under your insurance deductible. The exact cost depends on damage severity. Call 949-282-9653 for a free, no-obligation estimate.</p>
-        </div>
-        <div class="faq-card reveal">
-          <h4>Can you repair a bumper cracked all the way through?</h4>
-          <p>Yes. ACS repairs bumpers even if they are torn or punctured. The area is professionally filled, reinforced, and refinished to factory spec with a full PPG color match.</p>
-        </div>
-        <div class="faq-card reveal">
-          <h4>How long does bumper repair take?</h4>
-          <p>Most bumper repairs are completed in a few hours on-site at your home or office. You won't need a rental car or a shop drop-off. We work around your schedule.</p>
-        </div>
-        <div class="faq-card reveal">
-          <h4>Will the repair match the rest of my car?</h4>
-          <p>Guaranteed. We use PPG's professional paint matching system to identify your factory color code and blend the repair seamlessly — on any make, model, or color.</p>
-        </div>
-        <div class="faq-card reveal">
-          <h4>Do you do bumper repair on Tesla and luxury vehicles?</h4>
-          <p>Yes. Darren has dealer-level experience with BMW, Mercedes, Audi, Land Rover, Aston-Martin, and Tesla. One customer had their 2019 Tesla bumper repaired for less than 25% of what Tesla quoted.</p>
-        </div>
-        <div class="faq-card reveal">
-          <h4>Is bumper repair better than replacement?</h4>
-          <p>In most cases, yes — repair is faster, cheaper, and preserves your original panel. ACS will always give you an honest assessment and only recommend replacement when the structural damage truly warrants it.</p>
-        </div>
+        <div class="faq-card reveal"><h4>How much does bumper repair cost in Orange County?</h4><p>Most ACS repairs come in well below a body shop — often under your deductible. The cost depends on damage severity. Call 949-282-9653 for a free estimate.</p></div>
+        <div class="faq-card reveal"><h4>Can you repair a bumper cracked all the way through?</h4><p>Yes. ACS repairs bumpers even if torn or punctured. The area is filled, reinforced, and refinished to factory spec with a full PPG color match.</p></div>
+        <div class="faq-card reveal"><h4>How long does bumper repair take?</h4><p>Most bumper repairs are completed in a few hours on-site at your Orange County home or office. No rental car, no shop drop-off.</p></div>
+        <div class="faq-card reveal"><h4>Will the repair match the rest of my car?</h4><p>Guaranteed. PPG's professional paint matching system identifies your factory color code and blends the repair seamlessly on any make or model.</p></div>
+        <div class="faq-card reveal"><h4>Do you repair bumpers on Tesla and luxury vehicles?</h4><p>Yes. Darren has dealer-level experience with BMW, Mercedes, Audi, Land Rover, Aston-Martin, and Tesla. One customer paid less than 25% of Tesla's quote for the same repair.</p></div>
+        <div class="faq-card reveal"><h4>Is bumper repair better than replacement?</h4><p>In most cases, yes — faster, cheaper, and preserves your original panel. ACS gives you an honest assessment and only recommends replacement when truly necessary.</p></div>
       </div>
     </div>
   </section>
@@ -431,65 +364,53 @@
   <section class="related">
     <div class="container">
       <div class="reveal">
-        <span class="section-label">Also Available</span>
-        <h2 class="section-h2">Related Services</h2>
+        <div class="lbl">Also Available</div>
+        <h2 class="h2">Related Services</h2>
       </div>
       <div class="related-grid">
-        <div class="related-card reveal">
-          <h4>Scratch Repair</h4>
-          <p>Clear coat and deep paint scratches professionally repaired and color-matched at your location.</p>
-          <a href="/services/scratch-repair-orange-county/">Learn More →</a>
-        </div>
-        <div class="related-card reveal">
-          <h4>Dent Removal</h4>
-          <p>Paintless dent removal preserving your factory finish, or full repaint if paint is damaged.</p>
-          <a href="/services/dent-removal-orange-county/">Learn More →</a>
-        </div>
-        <div class="related-card reveal">
-          <h4>Rock Chip Repair</h4>
-          <p>Paint chips repaired before rust sets in — quick, effective, and done at your location.</p>
-          <a href="/services/rock-chip-repair-orange-county/">Learn More →</a>
-        </div>
+        <div class="related-card reveal"><div class="icon"><i class="bi bi-wrench-adjustable"></i></div><h4>Scratch Repair</h4><p>Clear coat and deep paint scratches repaired and color-matched at your location.</p><a href="/services/scratch-repair-orange-county/">Learn More <i class="bi bi-arrow-right"></i></a></div>
+        <div class="related-card reveal"><div class="icon"><i class="bi bi-tools"></i></div><h4>Dent Removal</h4><p>Paintless dent removal preserving your factory finish, or full repaint if needed.</p><a href="/services/dent-removal-orange-county/">Learn More <i class="bi bi-arrow-right"></i></a></div>
+        <div class="related-card reveal"><div class="icon"><i class="bi bi-shield-fill-check"></i></div><h4>Rock Chip Repair</h4><p>Paint chips fixed before rust sets in — quick, effective, on-site.</p><a href="/services/rock-chip-repair-orange-county/">Learn More <i class="bi bi-arrow-right"></i></a></div>
       </div>
     </div>
   </section>
 
-  <!-- CITY LIST -->
-  <section class="city-list-section">
+  <!-- CITY CHIPS -->
+  <section class="city-chips-section">
     <div class="container">
-      <h3>Mobile Bumper Repair Available Throughout Orange County</h3>
-      <div class="city-chips">
-        <a class="city-chip" href="/service-areas/bumper-repair-newport-beach/">Newport Beach</a>
-        <a class="city-chip" href="/service-areas/bumper-repair-laguna-beach/">Laguna Beach</a>
-        <a class="city-chip" href="/service-areas/bumper-repair-laguna-niguel/">Laguna Niguel</a>
-        <a class="city-chip" href="/service-areas/bumper-repair-laguna-hills/">Laguna Hills</a>
-        <a class="city-chip" href="/service-areas/bumper-repair-mission-viejo/">Mission Viejo</a>
-        <a class="city-chip" href="/service-areas/bumper-repair-dana-point/">Dana Point</a>
-        <a class="city-chip" href="/service-areas/bumper-repair-irvine/">Irvine</a>
-        <a class="city-chip" href="/service-areas/bumper-repair-aliso-viejo/">Aliso Viejo</a>
-        <a class="city-chip" href="/service-areas/bumper-repair-san-clemente/">San Clemente</a>
-        <a class="city-chip" href="/service-areas/bumper-repair-anaheim-hills/">Anaheim Hills</a>
-        <a class="city-chip" href="/service-areas/bumper-repair-corona-del-mar/">Corona Del Mar</a>
-        <a class="city-chip" href="/service-areas/bumper-repair-huntington-beach/">Huntington Beach</a>
-        <a class="city-chip" href="/service-areas/bumper-repair-rancho-santa-margarita/">Rancho Santa Margarita</a>
-        <a class="city-chip" href="/service-areas/bumper-repair-ladera-ranch/">Ladera Ranch</a>
-        <a class="city-chip" href="/service-areas/bumper-repair-lake-forest/">Lake Forest</a>
-        <a class="city-chip" href="/service-areas/bumper-repair-san-juan-capistrano/">San Juan Capistrano</a>
-        <a class="city-chip" href="/service-areas/bumper-repair-coto-de-caza/">Coto de Caza</a>
-        <a class="city-chip" href="/service-areas/bumper-repair-foothill-ranch/">Foothill Ranch</a>
-        <a class="city-chip" href="/service-areas/bumper-repair-balboa-island/">Balboa Island</a>
+      <h3>Available Throughout Orange County</h3>
+      <div class="chips">
+        <a class="chip" href="/service-areas/bumper-repair-newport-beach/">Newport Beach</a>
+        <a class="chip" href="/service-areas/bumper-repair-laguna-beach/">Laguna Beach</a>
+        <a class="chip" href="/service-areas/bumper-repair-laguna-niguel/">Laguna Niguel</a>
+        <a class="chip" href="/service-areas/bumper-repair-laguna-hills/">Laguna Hills</a>
+        <a class="chip" href="/service-areas/bumper-repair-mission-viejo/">Mission Viejo</a>
+        <a class="chip" href="/service-areas/bumper-repair-dana-point/">Dana Point</a>
+        <a class="chip" href="/service-areas/bumper-repair-irvine/">Irvine</a>
+        <a class="chip" href="/service-areas/bumper-repair-aliso-viejo/">Aliso Viejo</a>
+        <a class="chip" href="/service-areas/bumper-repair-san-clemente/">San Clemente</a>
+        <a class="chip" href="/service-areas/bumper-repair-anaheim-hills/">Anaheim Hills</a>
+        <a class="chip" href="/service-areas/bumper-repair-corona-del-mar/">Corona Del Mar</a>
+        <a class="chip" href="/service-areas/bumper-repair-huntington-beach/">Huntington Beach</a>
+        <a class="chip" href="/service-areas/bumper-repair-rancho-santa-margarita/">Rancho Santa Margarita</a>
+        <a class="chip" href="/service-areas/bumper-repair-ladera-ranch/">Ladera Ranch</a>
+        <a class="chip" href="/service-areas/bumper-repair-lake-forest/">Lake Forest</a>
+        <a class="chip" href="/service-areas/bumper-repair-san-juan-capistrano/">San Juan Capistrano</a>
+        <a class="chip" href="/service-areas/bumper-repair-coto-de-caza/">Coto de Caza</a>
+        <a class="chip" href="/service-areas/bumper-repair-foothill-ranch/">Foothill Ranch</a>
+        <a class="chip" href="/service-areas/bumper-repair-balboa-island/">Balboa Island</a>
       </div>
     </div>
   </section>
 
-  <!-- BOTTOM CTA BAR -->
+  <!-- CTA BAR -->
   <section class="cta-bar">
     <div class="container">
       <div class="cta-bar-inner">
-        <h2>Ready to Fix Your Bumper?<br>We Come to You.</h2>
-        <div class="cta-bar-btns">
-          <a href="tel:9492829653" class="btn-white">Call 949-282-9653</a>
-          <a href="#estimate" class="btn-outline-wh">Get Free Estimate</a>
+        <h2>Ready to Fix Your Bumper?<br><span>We Come to You.</span></h2>
+        <div class="cta-btns">
+          <a href="tel:9492829653" class="btn btn-yellow"><i class="bi bi-telephone-fill"></i> Call 949-282-9653</a>
+          <a href="/#contact" class="btn-outline-white">Get Free Estimate</a>
         </div>
       </div>
     </div>
@@ -498,25 +419,25 @@
   <!-- FOOTER -->
   <footer id="footer">
     <div class="container">
-      <div class="footer-mini">
-        <div>
-          <div class="nav-logo">Auto <span style="color:var(--red)">Cosmetic</span> Solutions</div>
-          <p class="desc">Mobile bumper repair, scratch repair, and auto cosmetic services throughout Orange County, CA. PPG paint. Lifetime guarantee.</p>
-          <a href="tel:9492829653" class="fp">949-282-9653</a>
-          <div style="font-size:13px;color:rgba(255,255,255,.3);">Mon–Fri 8 AM–6 PM · Sat–Sun Closed</div>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo">Auto<span class="y">&nbsp;Cosmetic</span><span class="dot"></span>Solutions</div>
+          <p>Mobile bumper repair, scratch repair, and auto cosmetic services throughout Orange County, CA. PPG paint. Lifetime guarantee.</p>
+          <a href="tel:9492829653" class="f-phone">949-282-9653</a>
+          <div class="f-hours">Mon&ndash;Fri 8 AM&ndash;6 PM &middot; Sat&ndash;Sun Closed</div>
         </div>
-        <div>
+        <div class="footer-col">
           <h4>Services</h4>
           <ul>
             <li><a href="/services/bumper-repair-orange-county/">Bumper Repair</a></li>
             <li><a href="/services/scratch-repair-orange-county/">Scratch Repair</a></li>
             <li><a href="/services/dent-removal-orange-county/">Dent Removal</a></li>
-            <li><a href="/services/bumper-replacement-orange-county/">Bumper Replacement</a></li>
             <li><a href="/services/rock-chip-repair-orange-county/">Rock Chip Repair</a></li>
             <li><a href="/services/headlight-refinishing-orange-county/">Headlight Refinishing</a></li>
+            <li><a href="/services/bumper-replacement-orange-county/">Bumper Replacement</a></li>
           </ul>
         </div>
-        <div>
+        <div class="footer-col">
           <h4>Service Areas</h4>
           <ul>
             <li><a href="/service-areas/bumper-repair-irvine/">Irvine</a></li>
@@ -529,17 +450,17 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2025 Auto Cosmetic Solutions · Mobile Bumper Repair · Orange County, CA · Site by <a href="https://aiopssquad.com">AI Ops Squad</a></p>
-        <span style="font-size:12px;color:rgba(255,255,255,.3);border:1px solid rgba(255,255,255,.1);padding:4px 10px;border-radius:100px;">Lifetime Paint Guarantee</span>
+        <p>&copy; 2025 Auto Cosmetic Solutions &middot; Mobile Bumper Repair &middot; Orange County, CA &middot; Site by <a href="https://aiopssquad.com" style="color:rgba(255,255,255,0.35);">AI Ops Squad</a></p>
+        <span class="f-badge">Lifetime Paint Guarantee</span>
       </div>
     </div>
   </footer>
 
   <script>
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('up'); obs.unobserve(e.target); } });
     }, { threshold: 0.08 });
-    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
   </script>
 </body>
 </html>
